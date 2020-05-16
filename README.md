@@ -16,7 +16,7 @@ Onde y indica 1 se a observação <i>o</i> pertence à classe <i>c</i>, caso con
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 
-Como explicado anteriormente, não houve uma seleção de um modelo dado que foi utilizada uma técnica de <i>stacking</i>, a qual é reponsável por aprender a melhor maneira de agregar todos os modelos utilizados. Mas a métrica utilizada para ajustar os hyperparametros dos modelos foi a <i>accuracy</i> que é o total de positivos verdadeiros somado com o total de negativos verdadeiros, dividido pelo total de observações.
+Como explicado anteriormente, não houve uma seleção de um modelo dado que foi utilizada uma técnica de <i>stacking</i>, a qual é reponsável por aprender a melhor maneira de agregar todos os modelos utilizados. Mas a métrica utilizada para fazer a validação e ajustar os hyperparametros dos modelos foi a <i>accuracy</i> que é a média do número de classificações corretas, entre as diferentes classes. Esta foi a métrica escolhida, pois entendo que não há razões suficientes para utilizar precision ou recall.
 
 d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
 
