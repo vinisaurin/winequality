@@ -11,9 +11,12 @@ A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apre
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{c=0}^9&space;y_{o,c}&space;log(p_{o,c})">
 
-Onde y indica 1 se a observação <i>o</i> pertence a classe <i>c</i>, caso contrário indica 0; e $p$ é a probabilidade predita da observação 0 
+Onde y indica 1 se a observação <i>o</i> pertence à classe <i>c</i>, caso contrário indica 0; e <i>p</i> é a probabilidade predita da observação <i>o</i> pertencer à classe <i>c</i>. 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
+Como explicado anteriormente, não houve uma seleção de um modelo dado que foi utilizada uma técnica de <i>stacking</i>, a qual é reponsável por aprender a melhor maneira de agregar todos os modelos utilizados. Mas a métrica utilizada para ajustar os hyperparametros dos modelos foi a <i>accuracy</i> que é o total de positivos verdadeiros somado com o total de negativos verdadeiros, dividido pelo total de observações.
 
 d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
+Em razão do número reduzido de observações, foi necessário separar 15% das amostras para o conjunto de teste e o restante foi utilizado no conjunto de treino. Entretanto, na etapa de treino foi utilizada a técnica de K-Fold cross validation, a fim de não reduzir ainda mais a amostra de treino para separar observações para o conjunto de validação.
+
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
