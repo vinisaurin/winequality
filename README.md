@@ -18,7 +18,9 @@ E para os métodos baseados em árvores foi utilizada o critério <i> Gini Impur
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^9&space;f_{i}&space;(1-f_{i})">
 
-Onde <i>f_{i}</i> é a frequência da classe i no nó.
+Onde <img src="https://latex.codecogs.com/gif.latex?\inline&space;f_{i}"> é a frequência da classe i no nó.
+
+https://latex.codecogs.com/gif.latex?\inline&space;f_{i}
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 
