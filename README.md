@@ -8,6 +8,7 @@ Além de utilizar diversos métodos de modelagem, também inseri uma diversidade
 
 b. Como foi definida a função de custo utilizada?
 A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apresentada abaixo:
+{-\sum_{c=1}^{M}}
 
 <img src="https://latex.codecogs.com/gif.latex?CE&amp;space;=&amp;space;-log\left&amp;space;(&amp;space;\frac{e^{s_{p}}}{\sum_{j}^{C}&amp;space;e^{s_{j}}}&amp;space;\right&amp;space;)" title="CE = -log\left ( \frac{e^{s_{p}}}{\sum_{j}^{C} e^{s_{j}}} \right )">
 
