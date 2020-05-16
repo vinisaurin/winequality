@@ -8,9 +8,10 @@ Além de utilizar diversos métodos de modelagem, também inseri uma diversidade
 
 b. Como foi definida a função de custo utilizada?
 A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apresentada abaixo:
-{-\sum_{c=1}^{M}}
 
-<img src="https://latex.codecogs.com/gif.latex?\sum_{c=1}^M&space;y_{o,c}&space;log(p_{o,c})">
+<img src="https://latex.codecogs.com/gif.latex?\sum_{c=0}^9&space;y_{o,c}&space;log(p_{o,c})">
+
+Onde y indica 1 se a observação <i>o</i> pertence a classe <i>c</i>, caso contrário indica 0; e $p$ é a probabilidade predita da observação 0 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 
