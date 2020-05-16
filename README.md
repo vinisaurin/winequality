@@ -14,6 +14,12 @@ A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apre
 
 Onde y indica 1 se a observação <i>o</i> pertence à classe <i>c</i>, caso contrário indica 0; e <i>p</i> é a probabilidade predita da observação <i>o</i> pertencer à classe <i>c</i>. 
 
+E para os métodos baseados em árvores foi utilizada o critério <i> Gini Impurity </i> descrito abaixo:
+
+<img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^9&space;f_{i}&space;(1-f_{i})">
+
+Onde <i>f_{i}</i> é a frequência da classe i no nó.
+
 c. Qual foi o critério utilizado na seleção do modelo final?
 
 Como explicado anteriormente, não houve uma seleção de um modelo dado que foi utilizada uma técnica de <i>stacking</i>, a qual é reponsável por aprender a melhor maneira de agregar todos os modelos utilizados. Mas a métrica utilizada para fazer a validação e ajustar os hyperparametros dos modelos foi a <i>accuracy</i> que é a média do número de classificações corretas, entre as diferentes classes. Esta foi a métrica escolhida, pois entendo que não há razões suficientes para utilizar precision ou recall.
