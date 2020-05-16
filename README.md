@@ -14,13 +14,11 @@ A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apre
 
 Onde y indica 1 se a observação <i>o</i> pertence à classe <i>c</i>, caso contrário indica 0; e <i>p</i> é a probabilidade predita da observação <i>o</i> pertencer à classe <i>c</i>. 
 
-E para os métodos baseados em árvores foi utilizada o critério <i> Gini Impurity </i> descrito abaixo:
+E para os métodos baseados em árvores foi utilizado o critério <i> Gini Impurity </i> descrito abaixo:
 
 <img src="https://latex.codecogs.com/gif.latex?\sum_{i=0}^9&space;f_{i}&space;(1-f_{i})">
 
-Onde <img src="https://latex.codecogs.com/gif.latex?\inline&space;f_{i}"> é a frequência da classe i no nó.
-
-https://latex.codecogs.com/gif.latex?\inline&space;f_{i}
+Onde <img src="https://latex.codecogs.com/gif.latex?\inline&space;f_{i}"> é a frequência da classe <i>i</i> no nó.
 
 c. Qual foi o critério utilizado na seleção do modelo final?
 
