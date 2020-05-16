@@ -7,7 +7,9 @@ A fim de explorar o problema da qualidade dos vinhos portugueses do tipo "Vinho 
 Além de utilizar diversos métodos de modelagem, também inseri uma diversidade nos dados ao aplicar estes mesmos mecanismos aos dados após a aplicação da técnica de aprendizado não supervisionado PCA. Ao invés de escolher um destes modelos como o melhor, resolvi utilizar a técnica de Stacking para conseguir agregar poder preditivo ao modelo final. 
 
 b. Como foi definida a função de custo utilizada?
+A função de custo utilizada foi a Categorical Cross-Entropy, a qual está apresentada abaixo:
 
+<img src="https://latex.codecogs.com/gif.latex?CE&amp;space;=&amp;space;-log\left&amp;space;(&amp;space;\frac{e^{s_{p}}}{\sum_{j}^{C}&amp;space;e^{s_{j}}}&amp;space;\right&amp;space;)" title="CE = -log\left ( \frac{e^{s_{p}}}{\sum_{j}^{C} e^{s_{j}}} \right )">
 
 
 c. Qual foi o critério utilizado na seleção do modelo final?
