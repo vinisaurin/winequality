@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.ipynb_checkpoints/
+.vscode/
+catboost_info/
+LastVersion-Copy1.ipynb
+metrics.py
+my_keras_model_tot_l2_1.h5
+NewTest.ipynb
+teste_lopes.ipynb
+utils_copy.py
